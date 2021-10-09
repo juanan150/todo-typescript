@@ -4,3 +4,23 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+ul {
+  list-style-type: circle;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.crossed {
+  text-decoration: line-through;
+}
+
+li p {
+  margin: 0;
+}
